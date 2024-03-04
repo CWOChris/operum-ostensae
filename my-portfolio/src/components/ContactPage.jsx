@@ -35,61 +35,61 @@ const ContactPage = () => {
       });
   };
 
-    return (
-        <Container component="main" maxWidth="sm">
-            <Box sx={{ marginTop: 8, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <Typography component="h1" variant="h5">
-                    Contact Me
-                </Typography>
-                <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
-                    <TextField
-                        margin="normal"
-                        required
-                        fullWidth
-                        id="name"
-                        label="Name"
-                        name="name"
-                        autoComplete="name"
-                        autoFocus
-                        value={formData.name}
-                        onChange={handleChange}
-                    />
-                    <TextField
-                        margin="normal"
-                        required
-                        fullWidth
-                        id="email"
-                        label="Email Address"
-                        name="email"
-                        autoComplete="email"
-                        value={formData.email}
-                        onChange={handleChange}
-                    />
-                    <TextField
-                        margin="normal"
-                        required
-                        fullWidth
-                        name="message"
-                        label="Message"
-                        type="text"
-                        id="message"
-                        multiline
-                        rows={4}
-                        value={formData.message}
-                        onChange={handleChange}
-                    />
-                    <Button
-                        type="submit"
-                        fullWidth
-                        variant="contained"
-                        sx={{ mt: 3, mb: 2 }}
-                    >
-                        Send
-                    </Button>
-                </Box>
-            </Box>
-        </Container>
-    );
+  return (
+    <Container component="main" maxWidth="sm">
+      <Box sx={{ marginTop: 8, display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+        <Typography component="h1" variant="h5">
+          Contact Me
+        </Typography>
+        <Box component="form" onSubmit={handleSubmit} noValidate sx={{ mt: 1 }}>
+          <TextField
+            margin="normal"
+            required
+            fullWidth
+            id="user_name"
+            label="Name"
+            name="user_name"
+            autoComplete="name"
+            autoFocus
+            value={formData.user_name}
+            onChange={handleChange}
+          />
+          <TextField
+            margin="normal"
+            required
+            fullWidth
+            id="user_email"
+            label="Email Address"
+            name="user_email"
+            autoComplete="email"
+            value={formData.user_email} // Corrected from formData.email to formData.user_email
+            onChange={handleChange}
+          />
+          <TextField
+            margin="normal"
+            required
+            fullWidth
+            name="message"
+            label="Message"
+            type="text"
+            id="message"
+            multiline
+            rows={4}
+            value={formData.message}
+            onChange={handleChange}
+          />
+          <Button
+            type="submit"
+            fullWidth
+            variant="contained"
+            sx={{ mt: 3, mb: 2 }}
+          >
+            Send
+          </Button>
+        </Box>
+      </Box>
+    </Container>
+  );
 };
 
 export default ContactPage;

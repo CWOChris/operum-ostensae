@@ -1,17 +1,20 @@
-import * as React from 'react';
-import Button from '@mui/material/Button';
-import { Link } from'react-router-dom';
+import React from 'react';
+import { Box, Typography, Button } from '@mui/material';
 
-function HomePage() {
+const HomePage = () => {
   return (
-    <div>
-      <h1>Welcome to my portfolio</h1>
-      <p>Feel free to browse around and learn more about me.</p>
-      <Button variant="contained" color="primary" component={Link} to="/about">
-        About Me
-      </Button>
-    </div>
+    <Box
+      display="flex" // Enables Flexbox
+      flexDirection="column" // Stacks children vertically
+      justifyContent="center" // Centers children vertically in the container
+      alignItems="center" // Centers children horizontally in the container
+      minHeight="100vh" // Makes the Box take up at least the full viewport height
+    >
+      <Typography variant="h3" gutterBottom>Welcome to My Portfolio</Typography>
+      <Typography variant="h6" gutterBottom>Feel free to browse around and learn more about me.</Typography>
+      <Button variant="contained" color="primary" href="/about">About Me</Button>
+    </Box>
   );
-}
+};
 
 export default HomePage;

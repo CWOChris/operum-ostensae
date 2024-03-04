@@ -1,31 +1,39 @@
 import React, { useState } from 'react';
+import emailjs from 'emailjs-com';
 import { Container, Typography, TextField, Button, Box } from '@mui/material';
 
 const ContactPage = () => {
-    const [formData, setFormData] = useState({
-        name: "",
-        email: "",
-        message: "",
-    });
+  const [formData, setFormData] = useState({
+    user_name: '',
+    user_email: '',
+    message: '',
+  });
 
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData(prevState => ({
-            ...prevState,
-            [name]: value
-        }));
-    };
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData(prevState => ({
+      ...prevState,
+      [name]: value
+    }));
+  };
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(formData);
-        alert("Thank you for your message! I will get back to you soon.");
-        setFormData({
-            name: "",
-            email: "",
-            message: "",
-        });
-    };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    const serviceID = 'service_9f38dsw'; // Replace with your actual service ID from EmailJS
+    const templateID = 'template_njm7dhu'; // Replace with your actual template ID
+    const userID = '7XOzjcqx3iGUE_efT'; // Replace with your actual user ID
+
+    emailjs.send(serviceID, templateID, formData, userID)
+      .then((response) => {
+        console.log('SUCCESS!', response.status, response.text);
+        alert("Message sent successfully!");
+        setFormData({ user_name: '', user_email: '', message: '' }); // Reset form after successful submission
+      }, (err) => {
+        console.log('FAILED...', err);
+        alert("Failed to send the message, please try again.");
+      });
+  };
 
     return (
         <Container component="main" maxWidth="sm">

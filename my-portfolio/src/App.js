@@ -6,6 +6,7 @@ import ContactPage from "./components/ContactPage";
 import ProjectsPage from "./components/ProjectsPage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import Resume from "./components/Resume";
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/contact' element={<ContactPage />} />
         <Route path='/projects' element={<ProjectsPage />} />
         <Route path='*' element={<HomePage />} />
+        <Route path='/resume' element={<Resume />} />
       </Routes>
       <Footer />
     </Router>

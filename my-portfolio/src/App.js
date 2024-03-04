@@ -10,7 +10,7 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/operum-ostensae">
       <Header />
       <Routes>
         <Route path='/' element={<HomePage />} />

@@ -1,5 +1,6 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
+import { Link } from'react-router-dom';
 
 const HomePage = () => {
   return (
@@ -12,7 +13,7 @@ const HomePage = () => {
     >
       <Typography variant="h3" gutterBottom>Welcome to My Portfolio</Typography>
       <Typography variant="h6" gutterBottom>Feel free to browse around and learn more about me.</Typography>
-      <Button variant="contained" color="primary" href="/about">About Me</Button>
+      <Button variant="contained" color="primary" component={Link} to="/about">About Me</Button>
     </Box>
   );
 };

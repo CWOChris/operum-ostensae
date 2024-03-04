@@ -9,7 +9,7 @@ const Header = () => {
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                    My Portfolio
+                    @CWOChris
                 </Typography>
                 <Button color="inherit" href="/">Home</Button>
                 <Button color="inherit" href="/about">About</Button>

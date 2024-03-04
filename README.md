@@ -17,7 +17,7 @@ This is the work portfolio for CWOChris
 * [Badges](#badges)
 
 ## :hourglass: Installation
-* After any changes are made, be sure to run npm deploy from the my-portfolio directory to facilitate functionality with GH Pages.
+* After any changes are made, be sure to run npm run deploy from the my-portfolio directory to facilitate functionality with GH Pages.
 
 ## :arrows_counterclockwise: Usage
 * 

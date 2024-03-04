@@ -14,7 +14,7 @@ const AboutPage = () => {
                     I am a full-stack web developer with a passion for building and maintaining web applications. I have experience with HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. I am also familiar with SQL. I am a lifelong learner and am always looking for opportunities to expand my skill set.
                 </Typography>
                 <Typography variant="body1" paragraph>
-                    I am a United States Army veteran with over 10 years of service. I have experience in leadership, management, and training. I am a team player and am comfortable working in a team environment or independently. I am a problem solver and am comfortable working in high-stress environments.
+                    I am a United States Army veteran with over 10 years of service. I have experience in leadership, management, and training. I am a team player and am comfortable working in a team environment or independently. I am a problem solver and am comfortable working in high-stress and fast-paced environments.
                 </Typography>
             </Box>
         </Container>

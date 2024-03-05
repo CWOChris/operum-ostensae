@@ -1,7 +1,6 @@
 import React from 'react';
-import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import Link from '@mui/material/Link';
+import { Box, Typography, Link as MuiLink } from '@mui/material';
+import { Link } from'react-router-dom';
 
 const Footer = () => {
     return (
@@ -10,7 +9,7 @@ const Footer = () => {
                 &copy; {new Date().getFullYear()} My Portfolio - <Link href="https://github.com/CWOChris" target='_blank' rel='noopener noreferrer' style={{color: 'inherit'}}>@CWOChris</Link>.
             </Typography>
             <Typography variant='subtitle1' align='center' color='text.secondary' component='p'>
-                <Link to='/credits' component={Link} style={{color: 'inherit'}}>Credits</Link>
+                <Link to='/credits' component={MuiLink} style={{color: 'inherit'}}>Credits</Link>
             </Typography>
         </Box>
     );

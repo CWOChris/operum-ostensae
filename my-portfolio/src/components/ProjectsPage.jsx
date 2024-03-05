@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, Button, Grid } from '@mui/material';
+import { waitFor } from '@testing-library/react';
 
 // Example project data
 const projects = [
@@ -14,6 +15,12 @@ const projects = [
     description: 'This app will generate a professional looking readme.md file for your project.',
     imageUrl: 'path/to/screenshot2.png',
     repoUrl: 'https://github.com/CWOChris/learn-you-somethin.git'
+  },
+  {
+    name: 'Silver-Screenr',
+    description: "An app that allows users to search for movies,view their trailers and other info and to like and comment on movies they've watched.",
+    imageUrl: 'path/to/screenshot3.png',
+    repoUrl: 'https://github.com/CWOChris/silver-screenr.git'
   },
   // Add more projects as needed
 ];

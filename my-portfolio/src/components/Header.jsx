@@ -56,9 +56,9 @@ const Header = () => {
                     </>
                 ) : (
                     <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
-                        <Avatar sx={{ marginRight: 2 }} />
+                        <Avatar alt='Picture of me on Tiran Island Saudi Arabia in my flight suit on the beach' src='/assests/CWOChris.jpg' />
                         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-                            @CWOChris
+                             @CWOChris
                         </Typography>
                         {navLinks.map((item) => (
                             <Button color="inherit" component={Link} to={item.path} key={item.title}>

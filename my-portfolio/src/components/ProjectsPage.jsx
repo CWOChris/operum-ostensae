@@ -4,16 +4,16 @@ import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, 
 // Example project data
 const projects = [
   {
-    name: 'Project 1',
-    description: 'This is a description for Project 1.',
-    imageUrl: 'path/to/screenshot1.png',
-    repoUrl: 'https://github.com/user/project1'
+    name: 'Bassline',
+    description: 'Final Group Project for the Web Development Bootcamp at the University of Minnesota.',
+    imageUrl: 'path/to/screenshot1.png', // TODO: Add image
+    repoUrl: 'https://github.com/CWOChris/bassline.git'
   },
   {
-    name: 'Project 2',
-    description: 'This is a description for Project 2.',
+    name: 'Learn You Somethin',
+    description: 'This app will generate a professional looking readme.md file for your project.',
     imageUrl: 'path/to/screenshot2.png',
-    repoUrl: 'https://github.com/user/project2'
+    repoUrl: 'https://github.com/CWOChris/learn-you-somethin.git'
   },
   // Add more projects as needed
 ];

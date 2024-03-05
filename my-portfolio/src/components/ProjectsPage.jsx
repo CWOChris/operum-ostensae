@@ -8,19 +8,22 @@ const projects = [
     name: 'Bassline',
     description: 'Final Group Project for the Web Development Bootcamp at the University of Minnesota.',
     imageUrl: 'path/to/screenshot1.png', // TODO: Add image
-    repoUrl: 'https://github.com/CWOChris/bassline.git'
+    repoUrl: 'https://github.com/CWOChris/bassline.git',
+    liveUrl: 'https://koeboldt.github.io/bassline/'
   },
   {
     name: 'Learn You Somethin',
     description: 'This app will generate a professional looking readme.md file for your project.',
     imageUrl: 'path/to/screenshot2.png',
-    repoUrl: 'https://github.com/CWOChris/learn-you-somethin.git'
+    repoUrl: 'https://github.com/CWOChris/learn-you-somethin.git',
+    liveUrl: 'https://cwochris.github.io/learn-you-somethin/'
   },
   {
     name: 'Silver-Screenr',
     description: "An app that allows users to search for movies,view their trailers and other info and to like and comment on movies they've watched.",
     imageUrl: 'path/to/screenshot3.png',
-    repoUrl: 'https://github.com/CWOChris/silver-screenr.git'
+    repoUrl: 'https://github.com/CWOChris/silver-screenr.git',
+    liveUrl: 'https://cwochris.github.io/Silver-Screenr/'
   },
   // Add more projects as needed
 ];
@@ -50,6 +53,9 @@ const Projects = () => {
             <CardActions>
               <Button size="small" color="primary" href={project.repoUrl} target="_blank">
                 View Repo
+              </Button>
+              <Button size="small" color="primary" href={project.liveUrl} target="_blank">
+                View Live
               </Button>
             </CardActions>
           </Card>

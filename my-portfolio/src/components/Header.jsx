@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { AppBar, Toolbar, Typography, IconButton, Drawer, List, ListItem, ListItemText, Box, useTheme, useMediaQuery, Avatar, Button } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu'; // Ensure @mui/icons-material is installed
 import { Link } from 'react-router-dom';
-import FlightIcon from '@mui/icons-material/Flight';
 
 const Header = () => {
     const [mobileOpen, setMobileOpen] = useState(false);

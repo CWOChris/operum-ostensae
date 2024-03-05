@@ -21,9 +21,9 @@ const ContactPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = 'your_service_ID'; // Replace with your actual service ID from EmailJS
-    const templateID = 'your_template_ID'; // Replace with your actual template ID
-    const userID = 'your_user_ID'; // Replace with your actual user ID from EmailJS
+    const serviceID = 'service_9f38dsw'; // Replace with your actual service ID from EmailJS
+    const templateID = 'template_njm7dhu'; // Replace with your actual template ID
+    const userID = '7XOzjcqx3iGUE_efT'; // Replace with your actual user ID from EmailJS
 
     emailjs.send(serviceID, templateID, formData, userID)
       .then((response) => {

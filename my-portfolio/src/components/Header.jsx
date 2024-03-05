@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { AppBar, Toolbar, Typography, Button, IconButton, Drawer, Box, List, ListItem, ListItemText, useTheme, useMediaQuery } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu'; // Icon for the menu button
+import { AppBar, Toolbar, Typography, IconButton, Drawer, List, ListItem, ListItemText, Box, useTheme, useMediaQuery, Avatar, Button } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu'; // Ensure @mui/icons-material is installed
 import { Link } from 'react-router-dom';
+import FlightIcon from '@mui/icons-material/Flight';
 
 const Header = () => {
     const [mobileOpen, setMobileOpen] = useState(false);
@@ -12,28 +13,22 @@ const Header = () => {
         setMobileOpen(!mobileOpen);
     };
 
-    const drawer = (
-        <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
-            <Typography variant="h6" sx={{ my: 2 }}>
-                @CWOChris
-            </Typography>
+    const navLinks = [
+        { title: 'Home', path: '/' },
+        { title: 'About', path: '/about' },
+        { title: 'Contact', path: '/contact' },
+        { title: 'Projects', path: '/projects' },
+        { title: 'Resume', path: '/resume' },
+    ];
+
+    const drawerContent = (
+        <Box onClick={handleDrawerToggle} sx={{ width: 250 }}>
             <List>
-                <ListItem button component={Link} to="/" key="Home">
-                    <ListItemText primary="Home" />
-                </ListItem>
-                {/* Repeat for other links */}
-                <ListItem button component={Link} to="/about" key="About">
-                    <ListItemText primary="About" />
-                </ListItem>
-                <ListItem button component={Link} to="/contact" key="Contact">
-                    <ListItemText primary="Contact" />
-                </ListItem>
-                <ListItem button component={Link} to="/projects" key="Projects">
-                    <ListItemText primary="Projects" />
-                </ListItem>
-                <ListItem button component={Link} to="/resume" key="Resume">
-                    <ListItemText primary="Resume" />
-                </ListItem>
+                {navLinks.map((item) => (
+                    <ListItem button component={Link} to={item.path} key={item.title}>
+                        <ListItemText primary={item.title} />
+                    </ListItem>
+                ))}
             </List>
         </Box>
     );
@@ -48,28 +43,29 @@ const Header = () => {
                             aria-label="open drawer"
                             edge="start"
                             onClick={handleDrawerToggle}
-                            sx={{ mr: 2 }}
                         >
                             <MenuIcon />
                         </IconButton>
                         <Drawer
-                            variant="temporary"
+                            anchor="left"
                             open={mobileOpen}
                             onClose={handleDrawerToggle}
-                            ModalProps={{
-                                keepMounted: true, // Better open performance on mobile.
-                            }}
-                            sx={{
-                                display: { xs: 'block', md: 'none' },
-                                '& .MuiDrawer-paper': { boxSizing: 'border-box', width: 240 },
-                            }}
                         >
-                            {drawer}
+                            {drawerContent}
                         </Drawer>
                     </>
                 ) : (
-                    <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-start' }}>
-                        {drawer} {/* Always visible on tablets and larger screens */}
+                    <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
+                        <Avatar sx={{ marginRight: 2 }} />
+                            <FlightIcon />
+                        <Typography variant="h6" sx={{ flexGrow: 1 }}>
+                            @CWOChris
+                        </Typography>
+                        {navLinks.map((item) => (
+                            <Button color="inherit" component={Link} to={item.path} key={item.title}>
+                                {item.title}
+                            </Button>
+                        ))}
                     </Box>
                 )}
             </Toolbar>

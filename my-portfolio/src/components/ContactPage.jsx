@@ -4,9 +4,10 @@ import { Container, Typography, TextField, Button, Box } from '@mui/material';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
-    user_name: '',
+    from_name: '', // Using from_name to match your template
     user_email: '',
     message: '',
+    to_name: 'Your Name Here' // Set this to your name or however you'd like to be addressed in the email
   });
 
   const handleChange = (e) => {
@@ -20,15 +21,15 @@ const ContactPage = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceID = 'service_9f38dsw'; // Replace with your actual service ID from EmailJS
-    const templateID = 'template_njm7dhu'; // Replace with your actual template ID
-    const userID = '7XOzjcqx3iGUE_efT'; // Replace with your actual user ID
+    const serviceID = 'your_service_ID'; // Replace with your actual service ID from EmailJS
+    const templateID = 'your_template_ID'; // Replace with your actual template ID
+    const userID = 'your_user_ID'; // Replace with your actual user ID from EmailJS
 
     emailjs.send(serviceID, templateID, formData, userID)
       .then((response) => {
         console.log('SUCCESS!', response.status, response.text);
         alert("Message sent successfully!");
-        setFormData({ user_name: '', user_email: '', message: '' }); // Reset form after successful submission
+        setFormData({ from_name: '', user_email: '', message: '', to_name: 'Your Name Here' }); // Reset form after successful submission
       }, (err) => {
         console.log('FAILED...', err);
         alert("Failed to send the message, please try again.");
@@ -46,12 +47,12 @@ const ContactPage = () => {
             margin="normal"
             required
             fullWidth
-            id="user_name"
+            id="from_name"
             label="Name"
-            name="user_name"
+            name="from_name"
             autoComplete="name"
             autoFocus
-            value={formData.user_name}
+            value={formData.from_name}
             onChange={handleChange}
           />
           <TextField
@@ -62,7 +63,7 @@ const ContactPage = () => {
             label="Email Address"
             name="user_email"
             autoComplete="email"
-            value={formData.user_email} // Corrected from formData.email to formData.user_email
+            value={formData.user_email}
             onChange={handleChange}
           />
           <TextField

@@ -21,7 +21,7 @@ const projects = [
   {
     name: 'Silver-Screenr',
     description: "An app that allows users to search for movies,view their trailers and other info and to like and comment on movies they've watched.",
-    imageUrl: '/build/assets/silver-screenr.png',
+    imageUrl: '/assets/silver-screenr.png',
     repoUrl: 'https://github.com/CWOChris/silver-screenr.git',
     liveUrl: 'https://cwochris.github.io/Silver-Screenr/'
   },

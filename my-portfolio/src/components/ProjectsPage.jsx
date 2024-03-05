@@ -25,6 +25,13 @@ const projects = [
     repoUrl: 'https://github.com/CWOChris/silver-screenr.git',
     liveUrl: 'https://cwochris.github.io/Silver-Screenr/'
   },
+  {
+    name: 'Administratio-Personarum',
+    description: 'A full stack web application that allows users to create, edit, and delete employee information.',
+    imageUrl: 'path/to/screenshot4.png',
+    repoUrl: 'https://github.com/CWOChris/administratio-personarum.git',
+    liveUrl: 'https://cwochris.github.io/administratio-personarum/'
+  },
   // Add more projects as needed
 ];
 

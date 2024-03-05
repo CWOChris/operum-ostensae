@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/operum-ostensae/static/css/main.08cb9510.css",
-    "main.js": "/operum-ostensae/static/js/main.419e62ca.js",
+    "main.js": "/operum-ostensae/static/js/main.6ece9246.js",
     "static/js/453.41811d64.chunk.js": "/operum-ostensae/static/js/453.41811d64.chunk.js",
     "index.html": "/operum-ostensae/index.html",
     "main.08cb9510.css.map": "/operum-ostensae/static/css/main.08cb9510.css.map",
-    "main.419e62ca.js.map": "/operum-ostensae/static/js/main.419e62ca.js.map",
+    "main.6ece9246.js.map": "/operum-ostensae/static/js/main.6ece9246.js.map",
     "453.41811d64.chunk.js.map": "/operum-ostensae/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08cb9510.css",
-    "static/js/main.419e62ca.js"
+    "static/js/main.6ece9246.js"
   ]
 }

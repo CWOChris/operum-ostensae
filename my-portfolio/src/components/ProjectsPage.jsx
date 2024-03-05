@@ -21,7 +21,7 @@ const projects = [
   {
     name: 'Silver-Screenr',
     description: "An app that allows users to search for movies,view their trailers and other info and to like and comment on movies they've watched.",
-    imageUrl: 'path/to/screenshot3.png',
+    imageUrl: '/build/assets/silver-screenr.png',
     repoUrl: 'https://github.com/CWOChris/silver-screenr.git',
     liveUrl: 'https://cwochris.github.io/Silver-Screenr/'
   },
@@ -31,6 +31,13 @@ const projects = [
     imageUrl: 'path/to/screenshot4.png',
     repoUrl: 'https://github.com/CWOChris/administratio-personarum.git',
     liveUrl: 'https://cwochris.github.io/administratio-personarum/'
+  },
+  {
+    name: 'Symbolum-Magicae',
+    description: 'An SVG logo creator.',
+    imageUrl: 'path/to/screenshot5.png',
+    repoUrl: 'https://github.com/CWOChris/symbolum-magicae.git',
+    liveUrl: 'https://cwochris.github.io/symbolum-magicae/'
   },
   // Add more projects as needed
 ];

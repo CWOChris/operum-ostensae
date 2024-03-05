@@ -42,3 +42,11 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.customAppBar {
+  background-color: #000000;
+}
+
+.customText {
+  color: #00ff00;
+}

@@ -33,7 +33,7 @@ const Header = () => {
     );
 
     return (
-        <AppBar position="fixed">
+        <AppBar position="fixed" className='customAppBar customText'>
             <Toolbar>
                 {isMobile ? (
                     <>

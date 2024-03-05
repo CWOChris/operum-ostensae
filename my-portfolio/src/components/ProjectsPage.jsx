@@ -39,6 +39,13 @@ const projects = [
     repoUrl: 'https://github.com/CWOChris/symbolum-magicae.git',
     liveUrl: 'https://cwochris.github.io/symbolum-magicae/'
   },
+  {
+    name: 'Actus-Dei',
+    description: 'A 5 day weather forecast app.',
+    imageUrl: 'path/to/screenshot6.png',
+    repoUrl: 'https://github.com/CWOChris/actus-dei.git',
+    liveUrl: 'https://cwochris.github.io/actus-dei/'
+  },
   // Add more projects as needed
 ];
 

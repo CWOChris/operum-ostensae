@@ -57,7 +57,6 @@ const Header = () => {
                 ) : (
                     <Box sx={{ flexGrow: 1, display: 'flex', alignItems: 'center' }}>
                         <Avatar sx={{ marginRight: 2 }} />
-                            <FlightIcon />
                         <Typography variant="h6" sx={{ flexGrow: 1 }}>
                             @CWOChris
                         </Typography>

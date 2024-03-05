@@ -1,6 +1,7 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
 import { Link } from'react-router-dom';
+import FlightIcon from '@mui/icons-material/Flight';
 
 const HomePage = () => {
   return (

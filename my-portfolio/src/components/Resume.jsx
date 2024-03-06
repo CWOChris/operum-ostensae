@@ -60,7 +60,7 @@ const Resume = () => {
                                 <ListItemText primary="Full Stack Web Development" secondary="U of MN Full Stack Web Development Coding BootCamp by EdX - 2024" />
                             </ListItem>
                             <ListItem>
-                                <ListItemText primary="UH-60 Student Pilot" secondary="US Army Aviation Center of Excellence - 2010 to 2012" />
+                                <ListItemText primary="UH-60 Pilot" secondary="US Army Aviation Center of Excellence - 2010 to 2012" />
                             </ListItem>
                         </List>
                     </Paper>

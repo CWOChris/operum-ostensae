@@ -22,9 +22,32 @@ const Resume = () => {
                         </Typography>
                         <List>
                             <ListItem>
+                                <ListItemText primary="Full Stack Web Developer" secondary="Freelance - February 2024 to Present" />
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText primary="Tech Team Member" secondary="Target - February 2023 to May 2023" />
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText primary="Field Operations Coordinator Veteran Intern" secondary="Soldiers' Angels July 2022 to December 2022" />
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText primary="Package Handler" secondary="Contract/UPS - October 2021 to January 2022" />
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText primary="Driver/Account Manager" secondary="Koch Trucking - October 2017 to July 2020" />
+                            </ListItem>
+                            <ListItem>
                                 <ListItemText primary="Blackhawk Pilot" secondary="US Army - January 2010 to December 2016" />
                             </ListItem>
-                            {/* Add more job experience(s) here as the example above indicates to */}
+                            <ListItem>
+                                <ListItemText primary="Medic" secondary="US Army - August 2006 to January 2010" />
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText primary="Meat Dept Team Member" secondary="Target - June 2003 to July 2006" />
+                            </ListItem>
+                            <ListItem>
+                                <ListItemText primary="Produce Associate" secondary="Bob's Produce Ranch - January 2002 to June 2006" />
+                            </ListItem>
                         </List>
                     </Paper>
 
@@ -36,7 +59,9 @@ const Resume = () => {
                             <ListItem>
                                 <ListItemText primary="Full Stack Web Development" secondary="U of MN Full Stack Web Development Coding BootCamp by EdX - 2024" />
                             </ListItem>
-                            {/* Add more education experience(s) here as the example above indicates to */}
+                            <ListItem>
+                                <ListItemText primary="UH-60 Student Pilot" secondary="US Army Aviation Center of Excellence - 2010 to 2012" />
+                            </ListItem>
                         </List>
                     </Paper>
 
@@ -46,12 +71,10 @@ const Resume = () => {
                         </Typography>
                         <List>
                             <ListItem>
-                                <ListItemText primary="HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, SQL" />
+                                <ListItemText primary="HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, SQL, Leadership, Problem Solving, Teamwork, Time Management, Adaptability, Communication, and Organization" />
                             </ListItem>
-                            {/* Add more skills here as the example above indicates to */}
                         </List>
                     </Paper>
-                    {/* Add more sections as applicable with time */}
                 </Box>
             </Container>
         </Box>

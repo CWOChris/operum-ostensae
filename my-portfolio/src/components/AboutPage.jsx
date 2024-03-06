@@ -7,7 +7,7 @@ const AboutPage = () => {
     return (
         <Container component="main" maxWidth="md">
             <Box sx={{ marginTop: 8, display: "flex", flexDirection: "row", alignItems: "flex-start", paddingTop: '64px' }}>
-                <img src="/assets/CWOChris.jpg" alt="Photo of me on a beach of Tiran Island, Saudi Arabia" style={{ height: '300px', width: '300px', marginRight: '20px' }} />
+                <img src="/assets/CWOChris.jpg" alt="" style={{ height: '300px', width: '300px', marginRight: '20px' }} />
                 <Box>
                     <Typography component="h1" variant="h4" gutterBottom>
                         About Me

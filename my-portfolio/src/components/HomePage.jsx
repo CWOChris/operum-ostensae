@@ -11,8 +11,8 @@ const HomePage = () => {
       alignItems="center" // Centers children horizontally in the container
       minHeight="100vh" // Makes the Box take up at least the full viewport height
     >
-      <Typography variant="h3" gutterBottom>Welcome to My Portfolio</Typography>
-      <Typography variant="h6" gutterBottom>Feel free to browse around and learn more about me.</Typography>
+      <Typography variant="h3" gutterBottom align='center'>Welcome to My Portfolio</Typography>
+      <Typography variant="h6" gutterBottom align='center'>Feel free to browse around and learn more about me.</Typography>
       <Button variant="contained" color="primary" component={Link} to="/about">About Me</Button>
     </Box>
   );

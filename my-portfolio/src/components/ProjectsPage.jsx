@@ -1,5 +1,6 @@
 import React from 'react';
 import { Card, CardActionArea, CardMedia, CardContent, Typography, CardActions, Button, Grid } from '@mui/material';
+import { Link } from'react-router-dom';
 // import { waitFor } from '@testing-library/react';
 
 // Example project data
@@ -77,6 +78,9 @@ const Projects = () => {
               </Button>
               <Button size="small" color="primary" href={project.liveUrl} target="_blank">
                 View Live
+              </Button>
+              <Button size="small" color="primary" component={Link} to="/contact">
+                Contact Me!
               </Button>
             </CardActions>
           </Card>

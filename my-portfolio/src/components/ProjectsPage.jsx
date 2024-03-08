@@ -42,7 +42,7 @@ const projects = [
   {
     name: 'Actus-Dei',
     description: 'A 5 day weather forecast app.',
-    imageUrl: `${process.env.PUBLIC_URL}/assets/actus-dei.png`,,
+    imageUrl: `${process.env.PUBLIC_URL}/assets/actus-dei.png`,
     repoUrl: 'https://github.com/CWOChris/actus-dei.git',
     liveUrl: 'https://cwochris.github.io/actus-dei/'
   },

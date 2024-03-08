@@ -35,7 +35,7 @@ const projects = [
   {
     name: 'Symbolum-Magicae',
     description: 'An SVG logo creator.',
-    imageUrl: 'path/to/screenshot5.png',
+    imageUrl: `${process.env.PUBLIC_URL}/assets/circle-ex.svg`,
     repoUrl: 'https://github.com/CWOChris/symbolum-magicae.git',
     liveUrl: 'https://cwochris.github.io/symbolum-magicae/'
   },

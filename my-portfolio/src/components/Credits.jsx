@@ -6,13 +6,6 @@ const Credits = () => {
         <Box display="flex" justifyContent="center" alignItems="center" height="100vh" sx={{ paddingTop: '64px' }}>
             <List>
                 <Typography variant="body1" textAlign="center">
-                    <>Aviation Icons Created by: </>
-                    <Link href="https://www.flaticon.com/free-icons/aviation" target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
-                        Freepik - Flaticon
-                    </Link>
-                </Typography>
-                <br />
-                <Typography variant="body1" textAlign="center">
                     <>Cornucopia Icons Created by: </>
                     <Link href="https://www.flaticon.com/free-icons/cornucopia" target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
                         iconixar - Flaticon
@@ -58,6 +51,13 @@ const Credits = () => {
                     <>Helicopter icons created by: </>
                     <Link href="https://www.flaticon.com/free-icons/helicopter" target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
                         Sea.icon - Flaticon
+                    </Link>
+                </Typography>
+                <br />
+                <Typography variant="body1" textAlign="center">
+                    <>Travel icons created by: </>
+                    <Link href="https://www.flaticon.com/free-icons/travel" target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
+                        Freepik - Flaticon
                     </Link>
                 </Typography>
                 <br />

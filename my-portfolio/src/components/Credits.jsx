@@ -61,6 +61,27 @@ const Credits = () => {
                     </Link>
                 </Typography>
                 <br />
+                <Typography variant="body1" textAlign="center">
+                    <>Retail icons created by: </>
+                    <Link href="https://www.flaticon.com/free-icons/retail" target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
+                        pojok d - Flaticon
+                    </Link>
+                </Typography>
+                <br />
+                <Typography variant="body1" textAlign="center">
+                    <>United states icons created by: </>
+                    <Link href="https://www.flaticon.com/free-icons/united-states" target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
+                        CorelisOP - Flaticon
+                    </Link>
+                </Typography>
+                <br />
+                <Typography variant="body1" textAlign="center">
+                    <>Pilot icons created by: </>
+                    <Link href="https://www.flaticon.com/free-icons/pilot" target="_blank" rel="noopener noreferrer" style={{ color: "inherit" }}>
+                        Freepik - Flaticon
+                    </Link>
+                </Typography>
+                <br />
             </List>
         </Box>
     );

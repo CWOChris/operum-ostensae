@@ -36,7 +36,7 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/target.png`} alt="Target Logo" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/store.png`} alt="Generic Marketplace Logo" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Tech Team Member" secondary="Target - February 2023 to May 2023" />
                             </ListItem>
@@ -48,7 +48,7 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/ups-icon.png`} alt="UPS Logo" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/package.png`} alt="UPS Logo" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Package Handler" secondary="Contract/UPS - October 2021 to January 2022" />
                             </ListItem>
@@ -60,19 +60,19 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/armystar-logo-rb.svg`} alt="US Army Logo" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/pilot.png`} alt="US Army Logo" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Blackhawk Pilot" secondary="US Army - January 2010 to December 2016" />
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/armystar-logo-rb.svg`} alt="US Army Logo" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/united-states.png`} alt="US Army Logo" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Medic" secondary="US Army - August 2006 to January 2010" />
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/marketplace.png`} alt="Marketplace Logo" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/store.png`} alt="Generic Marketplace Logo" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Meat Dept Team Member" secondary="Target - June 2003 to July 2006" />
                             </ListItem>

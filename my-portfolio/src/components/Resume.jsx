@@ -30,7 +30,7 @@ const Resume = () => {
                                 <ListItemText primary="Full Stack Web Developer" secondary="Freelance - February 2024 to Present" />
                             </ListItem>                            <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/supposedly-transparent.png`} alt="" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/veterans-day.png`} alt="" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Veterans' Claims Examiner" secondary="Dept of VA - March 2024 to Present" />
                             </ListItem>
@@ -42,7 +42,7 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/supposedly-transparent.png`} alt="" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/angel.png`} alt="" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Field Operations Coordinator Veteran Intern" secondary="Soldiers' Angels July 2022 to December 2022" />
                             </ListItem>
@@ -54,7 +54,7 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/supposedly-transparent.png`} alt="" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/semi.png`} alt="" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Driver/Account Manager" secondary="Koch Trucking - October 2017 to July 2020" />
                             </ListItem>
@@ -78,7 +78,7 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/supposedly-transparent.png`} alt="" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/cornucopia.png`} alt="" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Produce Associate" secondary="Bob's Produce Ranch - January 2002 to June 2006" />
                             </ListItem>
@@ -92,7 +92,7 @@ const Resume = () => {
                         <List>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/supposedly-transparent.png`} alt="" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/programming.png`} alt="" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Full Stack Web Development" secondary="U of MN Full Stack Web Development Coding BootCamp by EdX - 2024" />
                             </ListItem>
@@ -112,7 +112,7 @@ const Resume = () => {
                         <List>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/supposedly-transparent.png`} alt="" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/book.png`} alt="" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="HTML, CSS, JavaScript, React, Node.js, Express, MongoDB, SQL, Leadership, Problem Solving, Teamwork, Time Management, Adaptability, Communication, and Organization" />
                             </ListItem>

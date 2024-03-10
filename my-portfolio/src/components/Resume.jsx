@@ -25,7 +25,7 @@ const Resume = () => {
                         <List>
                         <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/supposedly-transparent.png`} alt="" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/programming.png`} alt="" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Full Stack Web Developer" secondary="Freelance - February 2024 to Present" />
                             </ListItem>                            <ListItem>
@@ -98,7 +98,7 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/armystar-logo-rb.svg`} alt="US Army Logo" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/helicopter.png`} alt="US Army Logo" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="UH-60 Pilot" secondary="US Army Aviation Center of Excellence - 2010 to 2012" />
                             </ListItem>

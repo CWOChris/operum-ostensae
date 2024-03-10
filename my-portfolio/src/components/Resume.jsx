@@ -72,7 +72,7 @@ const Resume = () => {
                             </ListItem>
                             <ListItem>
                                 <ListItemIcon>
-                                    <img src={`${process.env.PUBLIC_URL}/assets/target.png`} alt="Target Logo" style={{ width: '40px', height: '40px' }} />
+                                    <img src={`${process.env.PUBLIC_URL}/assets/marketplace.png`} alt="Marketplace Logo" style={{ width: '40px', height: '40px' }} />
                                 </ListItemIcon>
                                 <ListItemText primary="Meat Dept Team Member" secondary="Target - June 2003 to July 2006" />
                             </ListItem>

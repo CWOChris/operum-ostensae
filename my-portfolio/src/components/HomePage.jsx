@@ -13,7 +13,12 @@ const HomePage = () => {
     >
       <Typography variant="h3" gutterBottom align='center'>Welcome to My Portfolio</Typography>
       <Typography variant="h6" gutterBottom align='center'>Feel free to browse around and learn more about me.</Typography>
-      <Button variant="contained" color="primary" component={Link} to="/about">About Me</Button>
+      <Typography variant="body1" textAlign="center">
+        <Button variant="contained" color="primary" component={Link} to="/about">About Me</Button>
+        <Button variant="contained" color="secondary" component={Link} to="/projects">Projects</Button>
+        <Button variant="contained" color="error" component={Link} to="/contact">Contact Me</Button>
+        <Button variant="contained" color="success" component={Link} to="/resume">Resume</Button>
+      </Typography>
     </Box>
   );
 };

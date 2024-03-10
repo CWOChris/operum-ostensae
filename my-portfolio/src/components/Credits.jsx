@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography, Link, List, ListItem, ListItemIcon } from "@mui/material";
+import { Box, Typography, Link, List, ListItemIcon } from "@mui/material";
 
 const Credits = () => {
     return (
